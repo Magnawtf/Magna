@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jamie Logan",
+    "city": "New York",
+    "country": "USA",
+    "instagram": "https://www.instagram.com/jamielogan",
+    "youtube": "",
+    "tiktok": "",
+    "site": "",
+    "cause": ""
+  },
+  {
+    "name": "We The Free \u2014 Toronto",
+    "city": "Toronto",
+    "country": "Canada",
+    "instagram": "https://www.instagram.com/activism.wtf",
+    "youtube": "https://www.youtube.com/@WeTheFree",
+    "tiktok": "",
+    "site": "https://www.activism.wtf/",
+    "cause": ""
+  },
+  {
+    "name": "Wishbone Sanctuary",
+    "city": "Ontario",
+    "country": "Canada",
+    "instagram": "",
+    "youtube": "",
+    "tiktok": "",
+    "site": "https://example.org",
+    "cause": ""
+  }
+]

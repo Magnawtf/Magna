@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Media Archive — Magna.WTF</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.39 4.84L20 7.27l-3.64 3.55.86 5.03L12 13.77l-4.22 2.22.86-5.03L5 7.27l5.61-.43L12 2z" fill="currentColor"/></svg>
+        <span>Magna<span class="dot">.WTF</span></span>
+      </a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul id="menu" class="nav-list">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#book">Book</a></li>
+          <li><a aria-current="page" href="media.html">Media</a></li>
+          <li><a href="index.html#campaigns">Campaigns</a></li>
+          <li><a href="index.html#activists">Activists</a></li>
+          <li><a href="index.html#partners">Partners</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><button id="modeToggle" class="mode-toggle" aria-pressed="false" title="Toggle dark mode">🌓</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1>Media Archive</h1>
+      <p class="muted">Interviews, podcasts, articles, livestreams, protests, investigations, and documentaries.</p>
+
+      <div class="card" style="margin-top:16px">
+        <div class="container" style="padding:0">
+          <div class="filters" style="display:flex; gap:12px; flex-wrap:wrap; align-items:center">
+            <label>Search <input id="mediaSearch" type="search" placeholder="Find by title or platform…"></label>
+            <label>Type
+              <select id="typeFilter">
+                <option value="All">All</option>
+              </select>
+            </label>
+            <label>Year
+              <select id="yearFilter">
+                <option value="All">All</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div id="mediaList" class="cards media-grid" style="margin-top:16px"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> David Magna. All rights reserved.</p>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/the_40_yearoldvegan" target="_blank" rel="noopener" aria-label="Instagram">IG</a></li>
+        <li><a href="https://www.tiktok.com/@the40yearoldvegan" target="_blank" rel="noopener" aria-label="TikTok">TT</a></li>
+        <li><a href="https://www.threads.net/@the_40_yearoldvegan" target="_blank" rel="noopener" aria-label="Threads">Th</a></li>
+        <li><a href="https://www.youtube.com/@The40YearOldVegan" target="_blank" rel="noopener" aria-label="YouTube">YT</a></li>
+        <li><a href="https://linktr.ee/The40yearoldVegan" target="_blank" rel="noopener" aria-label="Linktree">LT</a></li>
+        <li><a href="https://www.facebook.com/share/1ABxQWi8wB/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook">FB</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/media_page.js"></script>
+</body>
+</html>
